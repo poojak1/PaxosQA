@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-	features="features/PaxosGoogleSearchScenario.feature",
+	features="features/PaxosGoogleSearchScenarios.feature",
 	glue={"stepDefinition"},
 	plugin={"html:target/cucumber-html-report"}
 )
